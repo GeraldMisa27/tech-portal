@@ -28,7 +28,7 @@ export default function ArticleCard({ article, priority = false }: ArticleCardPr
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />
         ) : (
-          <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-100">
+          <div className="w-full h-full flex items-center justify-center bg-linear-to-br from-blue-50 to-indigo-100">
             <span className="text-2xl text-indigo-300">{ }</span>
           </div>
         )}

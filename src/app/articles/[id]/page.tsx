@@ -105,7 +105,7 @@ export default async function ArticlePage({ params }: PageProps) {
 
             <div className="flex items-center gap-3 mb-8 pb-6 border-b border-gray-100">
               {article.user?.profile_image && (
-                <div className="relative w-10 h-10 rounded-full overflow-hidden bg-gray-200 flex-shrink-0">
+                <div className="relative w-10 h-10 rounded-full overflow-hidden bg-gray-200 shrink-0">
                   <Image
                     src={article.user.profile_image}
                     alt={article.user.name}
